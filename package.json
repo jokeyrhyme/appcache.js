@@ -1,11 +1,12 @@
 {
-  "name": "appcache.js",
+  "name": "appcache",
   "version": "0.0.1",
   "description": "parse AppCache manifests",
   "main": "index.js",
   "scripts": {
     "test": "eslint . && istanbul cover tests/"
   },
+  "repository": "https://github.com/jokeyrhyme/appcache.js",
   "license": "BSD",
   "devDependencies": {
     "eslint": "^0.18.0",
