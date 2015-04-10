@@ -1,0 +1,11 @@
+{
+  "cache": [
+    "abc",
+    "def"
+  ],
+  "fallback": [],
+  "network": [
+    "*",
+    "ghi"
+  ]
+}

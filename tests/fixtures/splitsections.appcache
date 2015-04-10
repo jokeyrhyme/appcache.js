@@ -1,0 +1,13 @@
+CACHE MANIFEST
+
+CACHE:
+abc
+
+NETWORK:
+*
+
+CACHE:
+def
+
+NETWORK:
+ghi
