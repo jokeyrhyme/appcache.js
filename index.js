@@ -1,6 +1,13 @@
 "use strict";
 
+// Node.js built-ins
+
+var crypto = require("crypto");
+
+// this module
+
 function AppCache() {
+  this.sha1 = "";
   this.cache = [];
   this.network = [];
   this.fallback = [];
@@ -20,6 +27,7 @@ AppCache.parse = function (fileContents) {
   var appCache = new AppCache();
   var entries;
   var section;
+  var hash;
   if (!fileContents || typeof fileContents !== "string") {
     return appCache;
   }
@@ -27,6 +35,9 @@ AppCache.parse = function (fileContents) {
   if (entries[0] !== AppCache.FIRST_LINE) {
     return appCache;
   }
+  hash = crypto.createHash("sha1");
+  hash.update(fileContents);
+  appCache.sha1 = hash.digest("hex");
   entries.forEach(function (line) {
     var entry = line.trim();
     var sectionName;
