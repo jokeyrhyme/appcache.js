@@ -1,0 +1,15 @@
+{
+  "name": "appcache.js",
+  "version": "0.0.1",
+  "description": "parse AppCache manifests",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && istanbul cover tests/"
+  },
+  "license": "BSD",
+  "devDependencies": {
+    "eslint": "^0.18.0",
+    "istanbul": "^0.3.13",
+    "tape": "^4.0.0"
+  }
+}
