@@ -35,6 +35,7 @@ AppCache.parse = function (fileContents) {
   if (entries[0] !== AppCache.FIRST_LINE) {
     return appCache;
   }
+  section = appCache.cache;
   hash = crypto.createHash("sha1");
   hash.update(fileContents);
   appCache.sha1 = hash.digest("hex");

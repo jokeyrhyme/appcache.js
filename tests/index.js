@@ -76,3 +76,17 @@ test("AppCache.parse( >>splitsections.appcache<< )", function (t) {
     t.end();
   });
 });
+
+test("AppCache.parse( >>everytimezone.appcache<< )", function (t) {
+  var expected = require("./fixtures/everytimezone.json");
+  fs.readFile(path.join(__dirname, "fixtures", "everytimezone.appcache"), {
+    encoding: "utf8"
+  }, function (err, contents) {
+    var appCache;
+    t.error(err);
+    t.isString(contents);
+    appCache = AppCache.parse(contents);
+    t.deepEqual(appCache, expected);
+    t.end();
+  });
+});

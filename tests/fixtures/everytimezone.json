@@ -1,0 +1,20 @@
+{
+  "cache": [
+    "/index.html",
+    "/everytimezone.css?20150329",
+    "/keymaster.min.js?20150329",
+    "/everytimezone.min.js?20150329",
+    "/data.js?20150409",
+    "/startup.png",
+    "/startup-retina.png",
+    "/startup-ipad-landscape.png",
+    "/startup-ipad-portrait.png",
+    "/pulse.png?20150329",
+    "/everytimezone-512.png"
+  ],
+  "network": [
+    "*"
+  ],
+  "fallback": [],
+  "sha1": "7759bc1f500b24c970217a2ac95075c171cc7e23"
+}
