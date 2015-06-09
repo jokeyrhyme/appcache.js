@@ -1,6 +1,6 @@
 {
-  "name": "appcache",
-  "version": "0.0.1",
+  "name": "@jokeyrhyme/appcache",
+  "version": "1.0.0",
   "description": "parse AppCache manifests",
   "main": "index.js",
   "scripts": {
