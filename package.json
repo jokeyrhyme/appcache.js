@@ -13,5 +13,10 @@
     "istanbul": "^0.3.13",
     "tape": "^4.0",
     "tape-chai": "^1.1"
-  }
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ]
 }
