@@ -9,8 +9,8 @@
   "repository": "https://github.com/jokeyrhyme/appcache.js",
   "license": "BSD",
   "devDependencies": {
-    "eslint": "^0.22",
-    "istanbul": "^0.3.13",
+    "eslint": "^3.12.2",
+    "istanbul": "^0.4.5",
     "tape": "^4.0",
     "tape-chai": "^1.1"
   },
