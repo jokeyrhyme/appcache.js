@@ -11,7 +11,6 @@
   "rules": {
     /* Possible Errors */
     "no-extra-parens": 2,
-    "no-reserved-keys": 2,
     "valid-jsdoc": 2,
     /* Best Practices */
     "block-scoped-var": 2,
@@ -40,6 +39,7 @@
     /* Node.JS */
     "no-sync": 2,
     /* Stylistic Issues */
+    "quote-props": [ "error", "consistent-as-needed" ],
     "quotes": [2, "single", "avoid-escape"]
   }
 }
