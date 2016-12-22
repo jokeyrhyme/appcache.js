@@ -1,22 +1,52 @@
 {
   "name": "@jokeyrhyme/appcache",
-  "version": "1.0.0",
   "description": "parse AppCache manifests",
-  "main": "index.js",
-  "scripts": {
-    "test": "eslint . && istanbul cover tests/"
+  "version": "1.0.0",
+  "author": "Ron Waldon <jokeyrhyme@gmail.com> (https://github.com/jokeyrhyme)",
+  "bugs": {
+    "url": "https://github.com/jokeyrhyme/appcache.js/issues"
   },
-  "repository": "https://github.com/jokeyrhyme/appcache.js",
-  "license": "BSD-2-Clause",
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-node": "^3.0.5",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "fixpack": "^2.3.1",
+    "flow-bin": "^0.37.4",
     "istanbul": "^0.4.5",
     "tape": "^4.0",
     "tape-chai": "^1.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
   },
   "files": [
     "index.js",
     "LICENSE",
     "README.md"
-  ]
+  ],
+  "homepage": "https://github.com/jokeyrhyme/appcache.js#readme",
+  "keywords": [],
+  "license": "BSD-2-Clause",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jokeyrhyme/appcache.js.git"
+  },
+  "scripts": {
+    "eslint": "eslint --fix --cache .",
+    "fixpack": "fixpack",
+    "flow_check": "flow check",
+    "posttest": "npm run eslint && npm run flow_check && npm run fixpack",
+    "test": "istanbul cover tests/"
+  }
 }

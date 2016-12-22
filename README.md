@@ -1,8 +1,6 @@
-# appcache.js
+# appcache.js [![npm module](https://img.shields.io/npm/v/@jokeyrhyme/appcache.svg)](https://www.npmjs.com/package/@jokeyrhyme/appcache) [![AppVeyor Status](https://img.shields.io/appveyor/ci/jokeyrhyme/appcache-js/master.svg)](https://ci.appveyor.com/project/jokeyrhyme/appcache-js) [![Travis CI Status](https://travis-ci.org/jokeyrhyme/appcache.js.svg?branch=master)](https://travis-ci.org/jokeyrhyme/appcache.js)
 
 parse and manipulate AppCache manifests
-
-[![npm module](https://img.shields.io/npm/v/@jokeyrhyme/appcache.svg)](https://www.npmjs.com/package/@jokeyrhyme/appcache)
 
 
 ## What is this?
